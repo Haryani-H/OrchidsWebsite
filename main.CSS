@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Set a default font for the whole website */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color for the entire site */
+    color: #333; /* Default text color */
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Instructions Styling (for message field) */
+.instructions {
+    font-size: 0.9em;  /* Make the text smaller */
+    color: #666;       /* Lighter gray color */
+    margin-top: 10px;  /* Add space between textarea and instructions */
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Existing styles in your main.css (such as instructions, etc.) */
+
+/* Table Styling */
+table {
+    width: 100%; /* Make the table take up the full width of the container */
+    border-collapse: collapse; /* Remove space between cells */
+    text-align: center; /* Center the images */
+}
+
+/* Table cell styling */
+td {
+    padding: 10px; /* Space between images */
+}
+
+/* Image styling */
+.gallery-item img {
+    width: 200px; /* Set consistent width */
+    height: 200px; /* Set consistent height */
+    object-fit: cover; /* Preserve aspect ratio and avoid stretching */
+}
+
+/* Instructions Styling (your existing styles) */
+.instructions {
+    font-size: 0.9em;  /* Make the text smaller */
+    color: #666;       /* Lighter gray color */
+    margin-top: 10px;  /* Add some space between the textarea and instructions */
+}
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Table takes up full width of the container */
+    border-collapse: collapse; /* No space between table cells */
+    margin-top: 20px; /* Optional: space above the table */
+}
+
+/* Table cell styling */
+td {
+    padding: 0; /* No padding between table cells */
+    margin: 0; /* Remove margin from table cells */
+    text-align: center; /* Center images within the cells */
+}
+
+/* Image styling */
+table img {
+    width: 100%;  /* Images take up full width of each table cell */
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio while filling the cell */
+    max-width: 200px; /* Limit the maximum width to 200px */
+    border-radius: 8px; /* Optional: rounded corners for images */
+}
